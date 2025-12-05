@@ -1,1 +1,22 @@
+# Не загружаем базу данных
+data/wild_tracks.db
+
+# Не загружаем резервные копии
+backups/
+*.db
+
+# Не загружаем конфигурацию rclone
+.config/rclone/
+
+# Не загружаем временные файлы
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Не загружаем логи и кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 data/*.db
