@@ -20,3 +20,9 @@ __pycache__/
 *.pyo
 *.pyd
 data/*.db
+data/wild_tracks.db
+data/schema.sql
+data/wild_tracks.db
+data/schema.sql
+*.db
+.config/rclone/
